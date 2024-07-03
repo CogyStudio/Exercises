@@ -10,6 +10,7 @@ namespace Exercise08_01
     {
         static void Main()
         {
+            
         }
     }
 }

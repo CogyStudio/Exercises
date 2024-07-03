@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercise08_01
+﻿namespace Exercise08_01
 {
     internal class MyClass
     {
-        char symb;
+        public char symb;
 
         public static MyClass operator++(MyClass obj)
         {
@@ -28,7 +22,7 @@ namespace Exercise08_01
         }
         public static int operator-(MyClass obj1, MyClass obj2)
         {
-            return 41;
+            return obj1.symb - obj2.symb;
         }
     }
 }
